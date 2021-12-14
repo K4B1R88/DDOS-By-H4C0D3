@@ -20,11 +20,13 @@ now = datetime.now()
 hour = now.hour
 minute = now.minute
 day = now.day
+
 month = now.month
 year = now.year
 
 
 def logo():
+	os.system('clear')
 	print(pink+red+b+'''
 	           █▀▄ █▀▄ █▀█ █▀  
 	           █▄▀ █▄▀ █▄█ ▄█  
